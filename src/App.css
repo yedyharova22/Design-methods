@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  width: 100%;
+  height: 135px;
+}
+
+.btn {
+  margin: 10px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
